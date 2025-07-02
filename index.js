@@ -48657,7 +48657,7 @@ function DemoApp() {
           case 0:
             _context.p = 0;
             _context.n = 1;
-            return fetch("https://script.google.com/macros/library/d/1ebG79IMWUAaaXeE6QWbjurgAOeaShdi3fJbzliT3nJGOb2CXaFYwoHXZ/1", {
+            return fetch("https://script.google.com/macros/s/AKfycbyEJxS8ZpVssLTreSiMt1zpEsMrn_Brw3EMISs_Q7ZJI-Lw6KUAQ8UynSAMLwzCaX1TiA/exec", {
               method: "POST",
               headers: {
                 "Content-Type": "application/json"
@@ -48699,7 +48699,7 @@ function DemoApp() {
           case 0:
             _context2.p = 0;
             _context2.n = 1;
-            return fetch("YOUR_SCRIPT_URL");
+            return fetch("https://script.google.com/macros/s/AKfycbyEJxS8ZpVssLTreSiMt1zpEsMrn_Brw3EMISs_Q7ZJI-Lw6KUAQ8UynSAMLwzCaX1TiA/exec");
           case 1:
             response = _context2.v;
             _context2.n = 2;
@@ -48731,7 +48731,7 @@ function DemoApp() {
           case 0:
             _context3.p = 0;
             _context3.n = 1;
-            return fetch("YOUR_SCRIPT_URL", {
+            return fetch("https://script.google.com/macros/s/AKfycbyEJxS8ZpVssLTreSiMt1zpEsMrn_Brw3EMISs_Q7ZJI-Lw6KUAQ8UynSAMLwzCaX1TiA/exec", {
               method: "DELETE",
               headers: {
                 "Content-Type": "application/json"
