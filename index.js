@@ -48663,6 +48663,7 @@ function DemoApp() {
                 //"Content-Type": "application/json"
                 "Content-Type": "text/plain"
               },
+              mode: "no-cors",
               body: JSON.stringify(eventData)
             });
           case 1:
