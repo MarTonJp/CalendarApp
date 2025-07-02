@@ -48657,7 +48657,7 @@ function DemoApp() {
           case 0:
             _context.p = 0;
             _context.n = 1;
-            return fetch("https://script.google.com/macros/s/AKfycbygifAXv5dqzygjPAfPjV6GzF4W9whByKXKnb_JaDLpSG0XZWDAtJRB1qC8eGklMjs3zw/exec", {
+            return fetch("https://script.google.com/macros/library/d/1ebG79IMWUAaaXeE6QWbjurgAOeaShdi3fJbzliT3nJGOb2CXaFYwoHXZ/1", {
               method: "POST",
               headers: {
                 "Content-Type": "application/json"
