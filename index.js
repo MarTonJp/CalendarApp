@@ -48660,7 +48660,8 @@ function DemoApp() {
             return fetch("https://script.google.com/macros/s/AKfycbyEJxS8ZpVssLTreSiMt1zpEsMrn_Brw3EMISs_Q7ZJI-Lw6KUAQ8UynSAMLwzCaX1TiA/exec", {
               method: "POST",
               headers: {
-                "Content-Type": "application/json"
+                //"Content-Type": "application/json"
+                "Content-Type": "text/plain"
               },
               body: JSON.stringify(eventData)
             });
